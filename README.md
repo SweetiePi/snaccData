@@ -1,5 +1,4 @@
 # snacc: Sequence Non-Alignment Compression & Comparison for Inferring Microbial Phylogenies
-=================================================================
 
 This repository contains the supplementary data for our publication, "Sequence Non-Alignment Compression & Comparison for Inferring Microbial Phylogenies."
 
@@ -7,9 +6,9 @@ Datasets
 -----------
 
 * [Carsonella ruddii](http://www.ncbi.nlm.nih.gov/nuccore/CP019943)
-* [Listeria monocytogenes]()
-* [Escherichia coli]()
-* [Streptococcus pneumonaie]()
+* [Listeria monocytogenes](https://figshare.com/articles/_/5483461)
+* [Escherichia coli](http://guanine.evolbio.mpg.de/andi/st131_extra.tgz)
+* [Streptococcus pneumonaie](https://datadryad.org//resource/doi:10.5061/dryad.t55gq)
 
 Simulations
 ------------
