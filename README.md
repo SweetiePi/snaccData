@@ -1,6 +1,6 @@
 # snacc: Sequence Non-Alignment Compression & Comparison for Inferring Microbial Phylogenies
 
-This repository contains the supplementary data for our publication, "Sequence Non-Alignment Compression & Comparison for Inferring Microbial Phylogenies."
+This repository contains the supplementary data for our manuscript, "Sequence Non-Alignment Compression & Comparison for Inferring Microbial Phylogenies."
 
 Datasets
 -----------
