@@ -13,7 +13,7 @@ Datasets
 Distance matrix construction
 ------------
 
-Software and versions are described in the paper. Command lines used:
+Software and versions are described in the manuscript. Command lines used:
 
 snacc:
 ```
@@ -29,4 +29,25 @@ Mash:
 ```
 mash sketch -o reference.msh sequence_directory/*.fa
 mash dist -t reference.msh reference.msh > output.tsv
+```
+
+FFP:
+```
+./ffpry sequence_directory/*.fa | ./ffpcol | ./ffprwn | ./ffpjsd > output.csv
+```
+
+skmer:
+```
+skmer reference sequence_directory/*.fa -p 4 -k <k-mer size optimized> -o library
+skmer distance library -t -o output.csv
+```
+
+Co-phylog:
+```
+./fasta2co directory/sequence.fa | ./co2dist > output.csv
+```
+
+OrthoANIu:
+```
+java -jar OAU.jar -fd sequence_directory/ -u ./usearch_directory -o ./output.csv
 ```
